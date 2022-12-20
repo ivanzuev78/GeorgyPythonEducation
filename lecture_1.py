@@ -218,3 +218,5 @@ man_list = [man_1, man_2, man_3, man_1]
 print(man_list)
 man_1['Рост'] = 189
 print(man_list)
+
+print('Я внёс изменения в гот')
