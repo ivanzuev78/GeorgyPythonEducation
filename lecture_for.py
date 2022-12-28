@@ -15,9 +15,7 @@ for num in my_list:
     new_num = num * 10 + 5
     new_list.append(new_num)
 
-
 print(new_list)
-
 
 """
 Специальные слова для управления циклом
@@ -41,7 +39,6 @@ for num1 in my_list1:
 
     new_list1.append(new_num1)
 
-
 print(new_list1)
 
 """
@@ -59,10 +56,7 @@ for num2 in my_list2:
 else:
     print('break не встретился')
 
-
 print('После for')
-
-
 
 """
 Полезные структуры
@@ -76,14 +70,23 @@ for i in range(len(my_list)):
     print(i, my_list[i])
 
 print('enumerate')
-for index, value in enumerate(my_list):
+for index, value in enumerate(my_list, ):
     print(index, value)
 
-save = len
-len = print
-print = len
-range = print
+# save = len
+# len = print
+# print = len
+# range = print
 
-len('Я печатаю через len')
-len('Я опять печатаю через len')
-range('Я опять печатаю через range')
+# len('Я печатаю через len')
+# len('Я опять печатаю через len')
+# range('Я опять печатаю через range')
+
+a_list = [1, 2, 3]
+b_list = [4, 5, 6]
+
+
+for s in range(len(a_list)):
+    print('a_list', a_list[s])
+    print('b_list', b_list[s])
+

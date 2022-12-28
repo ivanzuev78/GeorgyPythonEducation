@@ -123,3 +123,30 @@ else:
 print('after if')
 
 
+"""
+Операции сравнения
+>      больше
+<      Меньше
+==     равно
+>=     Больше или равно
+<=     Меньше или равно
+!=     Не равно
+
+Результат сравнения это True или False
+"""
+
+print('==============')
+item = {
+    'color': 'blue',
+    'shape': 'sphere'
+}
+if item['color'] == 'red' and item['shape'] == 'sphere':
+    print('Это красный шар')
+elif item['color'] == 'blue' and item['shape'] == 'sphere':
+    print('Это синий шар')
+elif item['color'] == 'red' or item['shape'] == 'sphere':
+    print('Это красный предмет или сфера')
+else:
+    print('Не удалось распознать')
+
+print('the end')
